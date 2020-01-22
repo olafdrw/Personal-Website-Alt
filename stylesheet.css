@@ -16,19 +16,26 @@ a {
   text-decoration: none;
 }
 
+.background {
+  background-image: url('toulon-cropped.jpg');
+  background-repeat: no-repeat;
+  background-size: 864px 720px;
+  background-position: right top;
+  height: 100vh;
+}
+
 .header {
   display: block;
   margin: 0px;
   padding: 0px;
-  width: 100%;
+  width: 40%;
   overflow: auto;
 }
 
 .header-inner {
   height: 90px;
   display: block;
-  width: 85%;
-  padding-left: 4%;
+  padding-left: 7%;
   float: none;
   border: none;
 }
@@ -91,12 +98,24 @@ a {
   padding-left: 40px;
   line-height: 1.4em;
   padding-left: 4%;
+  height: 100vh;
 }
 
-.main-img {
-  padding-left: 4%;
-  padding-right: 0;
-  float: right;
+.main-inner {
+  font-family: adobe-caslon-pro, sans-serif;
+  font-style: normal;
+  font-size: 52px;
+  font-weight: 400;
+  color: #2d3436;
+  padding-top: 120px;
+  padding-right: 40px;
+  padding-bottom: 160px;
+  padding-left: 40px;
+  line-height: 1.4em;
+  height: 100%;
+}
+
+.main {
   height: 100%;
 }
 

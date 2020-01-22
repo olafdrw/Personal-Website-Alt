@@ -1,0 +1,143 @@
+/* Olaf Willner, 2019 */
+
+.body, html {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  overflow: auto;
+}
+
+.header-inner {
+  height: 90px;
+  display: block;
+  width: 85%;
+  padding-left: 7%;
+  float: none;
+  border: none;
+}
+
+.title {
+  font-family: adobe-caslon-pro, sans-serif;
+  font-style: normal;
+  background: #fff;
+  color: #2d3436;
+  font-size: 32px;
+  font-weight: 600;
+  float: left;
+  height: 100%;
+  padding-top: 45px;
+}
+
+.photography {
+  font-family: adobe-caslon-pro, sans-serif;
+  font-style: normal;
+  background: #fff;
+  color: #2d3436;
+  font-size: 28px;
+  font-weight: 600;
+  float: right;
+  margin-right:80px;
+  padding-top: 45px;
+  }
+
+.contact {
+  font-family: adobe-caslon-pro, sans-serif;
+  font-style: normal;
+  background: #fff;
+  color: #2d3436;
+  font-size: 28px;
+  font-weight: 600;
+  float: right;
+  padding-right: 7%;
+  padding-top: 45px;
+}
+
+.contact:hover, .photography:hover {
+  color: #919C9F;
+  -webkit-transition: color 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out;
+}
+
+.content {
+  padding-right: 250px;
+}
+
+.text-inner {
+  font-family: adobe-caslon-pro, sans-serif;
+  font-style: normal;
+  font-size: 52px;
+  font-weight: 400;
+  color: #2d3436;
+  padding-top: 120px;
+  padding-right: 40px;
+  padding-bottom: 160px;
+  padding-left: 40px;
+  line-height: 1.4em;
+  padding-left: 7%;
+}
+
+.photography-text-inner {
+  font-family: adobe-caslon-pro, sans-serif;
+  font-style: normal;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-right: 7%;
+  padding-left: 7%;
+}
+
+.photography-text-title {
+  float: left;
+  font-size: 28px;
+  color: #2d3436;
+  font-weight: 600;
+}
+
+.photography-text-sub {
+  float: left;
+  font-size: 28px;
+  color: #A4A4A4;
+}
+
+.photography-content-inner {
+  padding-top: 80px;
+  padding-right: 7%;
+  padding-bottom: 160px;
+  padding-left: 7%;
+  width: 100%;
+  float: left;
+}
+
+.img-1 {
+  float: left;
+  position: relative;
+	-webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+.img-2, .img-3 {
+  float: left;
+  position: relative;
+  padding-left: 100px;
+  -webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+/* responsive styling */
+
+@media only screen and (max-width: 768px) {
+  .title {
+    text-align: center;
+  }
+}

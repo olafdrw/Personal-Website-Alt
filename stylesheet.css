@@ -1,10 +1,15 @@
 /* Olaf Willner, 2019 */
 
-.body, html {
+html {
   height: 100%;
   width: 100%;
   overflow-x: hidden;
   margin: 0px;
+  padding: 0px;
+}
+
+body {
+  margin: 0;
 }
 
 a {
@@ -23,7 +28,7 @@ a {
   height: 90px;
   display: block;
   width: 85%;
-  padding-left: 7%;
+  padding-left: 4%;
   float: none;
   border: none;
 }
@@ -60,7 +65,7 @@ a {
   font-size: 28px;
   font-weight: 600;
   float: right;
-  padding-right: 7%;
+  padding-right: 4%;
   padding-top: 45px;
 }
 
@@ -85,16 +90,24 @@ a {
   padding-bottom: 160px;
   padding-left: 40px;
   line-height: 1.4em;
-  padding-left: 7%;
+  padding-left: 4%;
 }
+
+.main-img {
+  padding-left: 4%;
+  padding-right: 0;
+  float: right;
+}
+
+// Photography Page
 
 .photography-text-inner {
   font-family: adobe-caslon-pro, sans-serif;
   font-style: normal;
   padding-top: 80px;
   padding-bottom: 80px;
-  padding-right: 7%;
-  padding-left: 7%;
+  padding-right: 4%;
+  padding-left: 4%;
 }
 
 .photography-text-title {
@@ -112,9 +125,9 @@ a {
 
 .photography-content-inner {
   padding-top: 80px;
-  padding-right: 7%;
+  padding-right: 4%;
   padding-bottom: 160px;
-  padding-left: 7%;
+  padding-left: 4%;
   width: 100%;
   float: left;
 }

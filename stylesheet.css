@@ -16,56 +16,77 @@ a {
   margin: 0px;
   padding: 0px;
   width: 100%;
-  overflow: auto;
+  height: 200px;
+  border-bottom: 1px;
+  border-bottom-color: #EFEFEF;
 }
 
 .header-inner {
   height: 90px;
   display: block;
-  width: 85%;
-  padding-left: 7%;
+  padding-left: 5%;
+  padding-right: 5%;
   float: none;
   border: none;
+  padding-top: 1px;
+  padding-bottom: 1px;
 }
 
 .title {
-  font-family: adobe-caslon-pro, sans-serif;
+  font-family: 'Cormorant Garamond', serif;
   font-style: normal;
   background: #fff;
   color: #2d3436;
-  font-size: 32px;
-  font-weight: 600;
+  font-size: 36px;
+  font-weight: 500;
   float: left;
-  height: 100%;
   padding-top: 45px;
+  display: block;
+}
+
+.header-nav {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  background: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  padding-left: 1vw;
+  text-align: right;
+}
+
+.header-nav-list {
+  display: block;
+}
+
+.recent-work {
+  color: #000;
+  padding-top: 45px;
+  float: right;
 }
 
 .photography {
-  font-family: adobe-caslon-pro, sans-serif;
-  font-style: normal;
-  background: #fff;
-  color: #2d3436;
-  font-size: 28px;
-  font-weight: 600;
-  float: right;
-  margin-right:80px;
+  color: #9B9B9B;
+  margin-left: 1.3vw;
   padding-top: 45px;
-  }
-
-.contact {
-  font-family: adobe-caslon-pro, sans-serif;
-  font-style: normal;
-  background: #fff;
-  color: #2d3436;
-  font-size: 28px;
-  font-weight: 600;
   float: right;
-  padding-right: 7%;
-  padding-top: 45px;
 }
 
-.contact:hover, .photography:hover {
-  color: #919C9F;
+.about {
+  color: #9B9B9B;
+  margin-left: 1.3vw;
+  padding-top: 45px;
+  float: right;
+}
+
+.contact {
+  color: #9B9B9B;
+  margin-left: 1.3vw;
+  padding-top: 45px;
+  float: right;
+}
+
+.contact:hover, .photography:hover, .recent-work:hover, .about:hover {
+  color: #000;
   -webkit-transition: color 0.15s ease-in-out;
   transition: color 0.15s ease-in-out;
 }
@@ -75,17 +96,19 @@ a {
 }
 
 .text-inner {
-  font-family: adobe-caslon-pro, sans-serif;
+  font-family: 'Cormorant Garamond', serif;
   font-style: normal;
-  font-size: 52px;
-  font-weight: 400;
-  color: #2d3436;
-  padding-top: 120px;
+  font-size: 36px;
+  font-weight: 500;
+  color: #000;
+  padding-top: 35px;
   padding-right: 40px;
   padding-bottom: 160px;
   padding-left: 40px;
   line-height: 1.4em;
-  padding-left: 7%;
+  padding-left: 15%;
+  padding-right: 15%;
+  text-align: center;
 }
 
 .photography-text-inner {

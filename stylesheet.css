@@ -18,6 +18,10 @@ a {
   width: 100%;
 }
 
+.responsive-header {
+  display: none;
+}
+
 .header-inner {
   height: 90px;
   display: block;

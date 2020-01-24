@@ -1,6 +1,6 @@
 /* Olaf Willner, 2019 */
 
-.body, html {
+body, html {
   height: 100%;
   width: 100%;
   overflow-x: hidden;
@@ -23,7 +23,13 @@ a {
 }
 
 .header-inner {
-  height: 90px;
+  display: block;
+  padding-left: 7%;
+  padding-right: 7%;
+  float: none;
+}
+
+.responsive-header-inner {
   display: block;
   padding-left: 7%;
   padding-right: 7%;
@@ -34,11 +40,23 @@ a {
   font-family: 'Cormorant Garamond', serif;
   font-style: normal;
   background: #fff;
-  color: #2d3436;
+  color: #000;
   font-size: 36px;
   font-weight: 500;
   float: left;
   padding-top: 45px;
+  display: block;
+}
+
+.responsive-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: normal;
+  background: #fff;
+  color: #000;
+  font-size: 24px;
+  font-weight: 500;
+  float: left;
+  padding-top: 10px;
   display: block;
 }
 
@@ -99,7 +117,7 @@ a {
   font-size: 36px;
   font-weight: 500;
   color: #000;
-  padding-top: 120px;
+  padding-top: 200px;
   padding-right: 40px;
   padding-bottom: 100px;
   padding-left: 40px;
@@ -207,7 +225,7 @@ a {
 /* responsive styling */
 
 @media only screen and (max-width: 768px) {
-  .title, .header-nav {
+  .title, .header {
     display: none;
   }
 
@@ -215,6 +233,13 @@ a {
     font-size: 26px;
     padding-top: 50px;
     padding-bottom: 35px;
+    padding-right: 17px;
+    padding-left: 17px;
+  }
+
+  .responsive-header {
+    display: block;
+    padding: 6vw;
   }
 
 }

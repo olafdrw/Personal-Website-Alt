@@ -207,7 +207,14 @@ a {
 /* responsive styling */
 
 @media only screen and (max-width: 768px) {
-  .title {
-    text-align: center;
+  .title, .header-nav {
+    display: none;
   }
+
+  .text-inner {
+    font-size: 26px;
+    padding-top: 50px;
+    padding-bottom: 35px;
+  }
+
 }

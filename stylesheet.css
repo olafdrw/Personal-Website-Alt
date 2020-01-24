@@ -21,8 +21,8 @@ a {
 .header-inner {
   height: 90px;
   display: block;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 7%;
+  padding-right: 7%;
   float: none;
 }
 
@@ -126,6 +126,23 @@ a {
   padding-left: 40px;
   line-height: 1.4em;
   padding-left: 6%;
+  text-align: left;
+}
+
+.footer {
+  background-color: #F9F9F9;
+  height: 35vh;
+}
+
+.footer-text {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  background: transparent;
+  color: #9B9B9B;
+  font-size: 18px;
+  font-weight: 500;
+  padding-left: 7%;
+  padding-top: 2vh;
   text-align: left;
 }
 

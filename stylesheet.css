@@ -264,6 +264,10 @@ a {
     display: none;
   }
 
+  .bottom-text-inner {
+    display: none;
+  }
+
 }
 
 @media only screen and (min-width: 768px) {

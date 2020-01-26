@@ -134,10 +134,16 @@ a {
   max-width: 90%;
   height: auto;
   float: right;
-  /* height: auto;
-  width: auto;
-  max-width: 1255px;
-  max-height: 832px; */
+}
+
+.img-1-portrait {
+  display: none;
+  padding-left: 6%;
+  padding-right: 5%;
+  margin-bottom: 50px;
+  max-width: 90%;
+  height: auto;
+  float: right;
 }
 
 .bottom-text {
@@ -240,6 +246,14 @@ a {
   .responsive-header {
     display: block;
     padding: 6vw;
+  }
+
+  .img-1 {
+    display: none;
+  }
+
+  .img-1-portait {
+    display: block;
   }
 
 }

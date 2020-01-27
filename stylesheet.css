@@ -161,6 +161,7 @@ a {
   max-width: 90%;
   height: auto;
   float: right;
+  display: none;
 }
 
 .bottom-text {
@@ -271,13 +272,13 @@ a {
   .footer-text {
     font-size: 14px;
   }
+
+  .img-1-portait {
+    display: block;
+  }
 }
 
 @media only screen and (min-width: 768px) {
-  .img-1-portait {
-    display: none;
-  }
-
   .text-inner-responsive {
     display: none;
   }
